@@ -189,3 +189,29 @@ Update `DATA_ROOT` in Cell 3 to your local dataset path, reduce `BATCH_SIZE` to 
 -pandas
 -numpy
 -tqdm
+
+---
+
+## Key Concepts
+
+**Denver Classification** groups chromosomes by size and centromere position:
+- Group A: 1, 2, 3 | Group B: 4, 5 | Group C: 6–12 | Group D: 13, 14, 15
+- Group E: 16, 17, 18 | Group F: 19, 20 | Group G: 21, 22 | Sex: X, Y
+
+**CDA (Chromosome Data Augmentation):** Chromosomes are orientation-invariant (a chromosome flipped or rotated 180° is the same chromosome), so aggressive rotation and flip augmentation is biologically valid and significantly improves generalization.
+
+**GradCAM (Gradient-weighted Class Activation Mapping):** Highlights which pixels of the chromosome image contributed most to the model's prediction — useful for clinical explainability.
+
+---
+
+## Internship Context
+
+This project was developed during a Summer Internship focused on medical image analysis. The demo notebook (`Chromosome_Demo.ipynb`) was built first on a small data subset (15 images/class, 64×64, CPU) to validate the pipeline end-to-end. The production notebook (`Chromosome_FullScale_Production.ipynb`) scales this up to the full dataset with five model architectures, all optimization techniques, and ensemble learning.
+
+---
+
+## Acknowledgements
+
+- Dataset provided as part of the internship program
+- Pretrained weights from ImageNet via `tf.keras.applications`
+- GradCAM implementation adapted from the Keras documentation
