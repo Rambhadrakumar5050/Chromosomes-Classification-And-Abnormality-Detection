@@ -139,3 +139,22 @@ Each chromosome is flagged as normal or potentially abnormal based on:
 ---
 
 ## Project Structure
+chromosome-classification/
+├── Chromosome_Demo.ipynb               # Small-scale proof of concept (15 images/class, CPU)
+├── Chromosome_FullScale_Production.ipynb  # Full training: all 5 models + ensemble
+├── data/
+│   ├── single_chromosomes_object/
+│   │   ├── JEPG/                       # Chromosome images
+│   │   └── anntations/                 # XML bounding box annotations
+│   ├── normal.csv
+│   ├── number_abnormalities.csv
+│   └── structural_abnormalities.csv
+└── outputs/
+├── *_final.keras                   # Saved model files
+├── model_comparison.csv            # Accuracy table across all models
+├── ensemble_predictions.csv        # Per-image inference results
+├── *_confusion.png                 # Confusion matrices
+├── *_curves.png                    # Training curves
+├── *_per_class.png                 # Per-class metrics
+├── *_gradcam.png                   # GradCAM explanations
+└── sample_predictions.png          # Prediction visualization grid
