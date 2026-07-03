@@ -158,3 +158,26 @@ chromosome-classification/
 ├── *_per_class.png                 # Per-class metrics
 ├── *_gradcam.png                   # GradCAM explanations
 └── sample_predictions.png          # Prediction visualization grid
+
+---
+
+## How to Run
+
+### Google Colab (Recommended — free GPU)
+
+1. Upload `Chromosome_FullScale_Production.ipynb` to Colab
+2. Set runtime to **GPU** (Runtime → Change runtime type → T4 GPU)
+3. Mount Google Drive and update `DATA_ROOT` in Cell 3
+4. Run all cells top to bottom
+
+### Local (CPU only)
+
+```bash
+pip install tensorflow opencv-python scikit-learn matplotlib seaborn pandas tqdm
+```
+
+Update `DATA_ROOT` in Cell 3 to your local dataset path, reduce `BATCH_SIZE` to 8–16.
+
+---
+
+## Requirements
