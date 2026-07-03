@@ -181,3 +181,11 @@ Update `DATA_ROOT` in Cell 3 to your local dataset path, reduce `BATCH_SIZE` to 
 ---
 
 ## Requirements
+-tensorflow >= 2.12
+-opencv-python
+-scikit-learn
+-matplotlib
+-seaborn
+-pandas
+-numpy
+-tqdm
