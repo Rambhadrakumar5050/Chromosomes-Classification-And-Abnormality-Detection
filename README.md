@@ -16,7 +16,7 @@ Human karyotype analysis involves identifying and classifying all 24 types of ch
 - Flag chromosomes as normal or potentially abnormal per image
 - Compare 5 model architectures and select the best
 - Achieve >95% inference accuracy using ensemble learning
-
+- Show results with graphs.
 ---
 
 ## Dataset
