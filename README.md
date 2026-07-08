@@ -21,7 +21,7 @@ Human karyotype analysis involves identifying and classifying all 24 types of ch
 
 ## Dataset
 
-- **Source:** Labeled chromosome image dataset (single chromosomes, cropped and annotated)
+- **Source:** Labeled chromosome image dataset (single chromosomes, cropped and annotated) and BioIMLAB dataset cinsisting of single chromosome images.
 - **Structure:**
   - `single_chromosomes_object/JEPG/` — individual chromosome images
   - `single_chromosomes_object/anntations/` — XML annotations
