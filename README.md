@@ -6,7 +6,7 @@ A deep learning system for automated classification of human chromosomes into 24
 Built as part of a Summer Internship project in medical image analysis.
 
 ---
-
+ 
 ## Project Overview
 
 Human karyotype analysis involves identifying and classifying all 24 types of chromosomes from microscope images, and detecting structural or numerical abnormalities (e.g. trisomy, deletion, translocation). This project automates that process using convolutional neural networks trained on a labeled chromosome image dataset.
