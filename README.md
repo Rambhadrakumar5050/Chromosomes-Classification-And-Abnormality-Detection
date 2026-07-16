@@ -15,7 +15,7 @@ Human karyotype analysis involves identifying and classifying all 24 types of ch
 - Classify each chromosome into one of 24 classes with >90% accuracy
 - Flag chromosomes as normal or potentially abnormal per image
 - Compare 5 model architectures and select the best
-- Achieve >95% inference accuracy using ensemble learning
+- Achieve >90% inference accuracy using ensemble learning
 - Show results with graphs.
 ---
 
@@ -61,7 +61,7 @@ All models use ImageNet pretrained weights and follow a two-phase training strat
 ### Phase 2 — Fine-Tuning (Top Layers Unfrozen)
 - Top layers of the backbone unfrozen (model-specific cutoff layers)
 - Learning rate: `1e-4` (10x lower to avoid catastrophic forgetting)
-- Epochs: 40
+- Epochs: 60 to 80
 - BatchNorm layers in backbone kept frozen (best practice for small-medium datasets)
 - Early stopping restores best weights automatically
 
