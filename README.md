@@ -163,9 +163,9 @@ chromosome-classification/
 
 ## How to Run
 
-### Google Colab (Recommended — free GPU)
+### Google Colab (For free GPU)
 
-1. Upload `Chromosome_FullScale_Production.ipynb` to Colab
+1. Upload `Chromosome_demo.ipynb` to Colab
 2. Set runtime to **GPU** (Runtime → Change runtime type → T4 GPU)
 3. Mount Google Drive and update `DATA_ROOT` in Cell 3
 4. Run all cells top to bottom
