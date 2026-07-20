@@ -9,7 +9,7 @@ Built as part of a Summer Internship project in medical image analysis.
  
 ## Project Overview
 
-Human karyotype analysis involves identifying and classifying all 24 types of chromosomes from microscope images, and detecting structural or numerical abnormalities (e.g. trisomy, deletion, translocation). This project automates that process using convolutional neural networks trained on a labeled chromosome image dataset.
+Human karyotype analysis involves identifying and classifying all 24 types of chromosomes from microscope images, and detecting structural or numerical abnormalities (e.g. trisomy, deletion, translocation). This project automates that  process using convolutional neural networks trained on a labeled chromosome image dataset.
 
 **Key goals:**
 - Classify each chromosome into one of 24 classes with >90% accuracy
