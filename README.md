@@ -1,4 +1,3 @@
-
 # 🧬 Chromosome Classification & Abnormality Detection
 
 A deep learning system for automated classification of human chromosomes into 24 classes (chromosomes 1–22, X, Y) and per-chromosome abnormality detection using transfer learning, multi-model comparison, and ensemble learning.
