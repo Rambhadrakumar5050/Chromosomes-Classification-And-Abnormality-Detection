@@ -30,6 +30,7 @@ Human karyotype analysis involves identifying and classifying all 24 types of ch
 - **Classes:** 24 (chromosomes 1–22, X, Y), grouped by Denver classification (A–G + Sex)
 - **Label parsing:** Chromosome class is encoded in the filename (`digits[-3:-1]` = 2-digit chromosome number)
 - **Split:** 70% train / 15% validation / 15% test (stratified)
+<img width="1707" height="677" alt="Sample_images" src="https://github.com/user-attachments/assets/5cf5300c-de16-47d3-94b7-699e93396987" />
 
 ---
 
