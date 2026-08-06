@@ -136,6 +136,12 @@ Each chromosome is flagged as normal or potentially abnormal based on:
 - Sample prediction grid (green = correct + normal, orange = correct + abnormal, red = wrong)
 - GradCAM heatmaps showing which regions the model focuses on
 
+<img width="546" height="610" alt="yolo_output" src="https://github.com/user-attachments/assets/15239420-515d-4b95-8a60-15ce3fa9cdf1" />
+
+<img width="744" height="368" alt="report" src="https://github.com/user-attachments/assets/b3b0c6ae-5f7a-42cb-9002-b2f9223fa3c1" />
+
+
+
 ---
 
 ## Project Structure
