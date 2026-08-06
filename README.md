@@ -139,6 +139,10 @@ Each chromosome is flagged as normal or potentially abnormal based on:
 <img width="546" height="610" alt="yolo_output" src="https://github.com/user-attachments/assets/15239420-515d-4b95-8a60-15ce3fa9cdf1" />
 
 <img width="744" height="368" alt="report" src="https://github.com/user-attachments/assets/b3b0c6ae-5f7a-42cb-9002-b2f9223fa3c1" />
+<img width="899" height="615" alt="resnet" src="https://github.com/user-attachments/assets/b3b63a06-239b-4056-87bb-5535325c5830" />
+<img width="763" height="513" alt="cirnet" src="https://github.com/user-attachments/assets/e941497f-eb97-48ac-ae64-482fa7f166b1" />
+
+
 
 
 
