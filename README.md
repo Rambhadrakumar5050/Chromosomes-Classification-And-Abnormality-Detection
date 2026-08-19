@@ -88,6 +88,7 @@ Class_22
 Class_X
 Class_Y
 ```
+<img width="931" height="653" alt="image" src="https://github.com/user-attachments/assets/ee2ddb21-8284-4da3-a457-2dd482ac492d" />
 
 These correspond to the 22 autosomal chromosome types and the two sex chromosomes.
 
