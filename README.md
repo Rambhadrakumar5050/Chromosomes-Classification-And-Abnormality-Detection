@@ -21,10 +21,6 @@ Single Chromosome Image
         ↓
       CLAHE
         ↓
-Gaussian Filtering
-        ↓
-    Sharpening
-        ↓
  Data Augmentation
         ↓
  Deep Learning Model
