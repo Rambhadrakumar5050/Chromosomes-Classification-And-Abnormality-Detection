@@ -195,9 +195,7 @@ A sharpening operation is applied after Gaussian filtering to enhance chromosome
 
 The combination:
 
-```text
-CLAHE → Gaussian → Sharpening
-```
+``
 
 provides a balance between contrast enhancement, noise reduction and edge enhancement.
 
