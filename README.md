@@ -4,7 +4,6 @@ A deep learning-based medical image classification system for the **automated cl
 
 The project focuses on developing a robust image-processing and deep-learning pipeline capable of learning morphological characteristics of chromosomes from microscopic images.
 
----
  
 ## 📌 Project Overview
 
