@@ -1,6 +1,6 @@
 # 🧬 Chromosome Classification Using Deep Learning
 
-A deep learning-based medical image classification system for the **automated classification of individual human chromosome images into 24 chromosome classes (1–22, X, Y)**.
+A deep learning-based medical image classification system for the **automated classification of individual human chromosome images into 24 chromosome classes (1–22, X, Y).
 
 The project focuses on developing a robust image-processing and deep-learning pipeline capable of learning morphological characteristics of chromosomes from microscopic images.
 
